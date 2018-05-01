@@ -1,0 +1,50 @@
+body{
+  background-color: #cce6ff;
+}
+header{
+  background-color: #3399ff;
+  text-align: center;
+  text-shadow: 50px;
+  text-decoration: inherit;
+  font-family: sans-serif;
+  font: italic bold 60px/60px Georgia, serif;
+}
+.top{
+  background-color: #99ccff;
+}
+.logo{
+  float: left;
+}
+.image{
+  padding-left: 450px;
+  padding-top: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: auto;
+  height: auto;
+  -webkit-transform:scale(0);
+  transition: .5s ease;
+}
+.col-6:hover .overlay {
+  height: 100%;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
