@@ -1,27 +1,43 @@
 body{
-  background-color: #cce6ff;
+  background-color: lightgrey;
+  color: white;
 }
 header{
-  background-color: #3399ff;
+  padding-top: 5px;
+  background-color: black;
   text-align: center;
   text-shadow: 50px;
   text-decoration: inherit;
   font-family: sans-serif;
   font: italic bold 60px/60px Georgia, serif;
+  outline-style: double;
+  outline-color: #000080;
+  outline-width: 15px;
+}
+.live{
+  text-align: inherit;
 }
 .top{
-  background-color: #99ccff;
+  background-color: black;
+  flex-flow: 100%;
+}
+
+.btn btn-primary{
+  background-color: #000080;
 }
 .logo{
   float: left;
+  color: negative;
 }
 .image{
-  padding-left: 450px;
-  padding-top: 100px;
-  padding-right: 100px;
-  padding-bottom: 100px;
-}
+  flex:100%;
+  padding-left: 400px;
+  padding-top: 50px;
 
+  }
+.carousel-inner{
+  padding-top: 50px
+}
 
 .overlay {
   position: absolute;
